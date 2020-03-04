@@ -67,7 +67,7 @@ AndroidManifest.xml မှာအောက်ပါအတိုင်းထည့
 အောက်ပါအတိုင်းခေါ်သုံး လို့ရပါပြီ
  String link="https://myblog.blogspot.com/feeds/posts/default?alt=json";
         int icon=R.drawable.ic_launcher_background;
-       /*second update ပေးလျှင် vcode ကို 2 ပြောင်းပေးပြီး blod post မှာပါ ပြောင်းပါ
+       /*second update ပေးလျှင် vcode ကို 2 ပြောင်းပေးပြီး blog post မှာပါ ပြောင်းပါ
       */
         int vcode=1;
         UpdateDialog updateDialog=new UpdateDialog(MainActivity.this,link,icon,vcode);
@@ -142,7 +142,7 @@ AndroidManifest.xml မွာေအာက္ပါအတိုင္းထည္
 ေအာက္ပါအတိုင္းေခါ္သံုး လို႕ရပါျပီ
  String link="https://myblog.blogspot.com/feeds/posts/default?alt=json";
         int icon=R.drawable.ic_launcher_background;
-       /*second update ေပးလ်ွင္ vcode ကို 2 ေျပာင္းေပးျပီး blod post မွာပါ ေျပာင္းပါ
+       /*second update ေပးလ်ွင္ vcode ကို 2 ေျပာင္းေပးျပီး blog post မွာပါ ေျပာင္းပါ
       */
         int vcode=1;
         UpdateDialog updateDialog=new UpdateDialog(MainActivity.this,link,icon,vcode);
