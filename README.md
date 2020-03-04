@@ -40,7 +40,7 @@ build.gradle (project level)မှာ
 	}
 build.gradle (app level)မှာ
 dependencies {
-	        implementation 'com.github.Thihazawzaw:Update-Dialog:Tag'
+	          implementation 'com.github.Thihazawzaw:Update-Dialog:1.0'
 	}
 
 AndroidManifest.xml မှာအောက်ပါအတိုင်းထည့်ပေးပါ။
@@ -115,7 +115,7 @@ build.gradle (project level)မွာ
 	}
 build.gradle (app level)မွာ
 dependencies {
-	        implementation 'com.github.Thihazawzaw:Update-Dialog:Tag'
+	          implementation 'com.github.Thihazawzaw:Update-Dialog:1.0'
 	}
 
 AndroidManifest.xml မွာေအာက္ပါအတိုင္းထည္႔ေပးပါ။
