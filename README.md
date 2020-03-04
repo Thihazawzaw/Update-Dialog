@@ -9,21 +9,21 @@ Unicode
 blogger တွင် 
 အောက်ပါ အတိုင်း post တစ်ခုတင်ပေးပါ။
 
-Blog Post title ကို  UPDATEZ လို့ အတိအကျပေးရပါမယ်။
+    Blog Post title ကို  UPDATEZ လို့ အတိအကျပေးရပါမယ်။
 
 blog post body ရဲ့ Html ဘက်မှာ အောက်ပါ Json string ထည့်ပေးရပါမယ်။
 
-{ "appname":"ကိုယ့် ရဲ့app name",
+      { "appname":"ကိုယ့် ရဲ့app name",
 
-"versionCode":"1",
+      "versionCode":"1",
 
- "msg":"Update version နဲ့ ပတ်သတ်တဲ့ စာ တစ်ခုခုရေး ",
+      "msg":"Update version နဲ့ ပတ်သတ်တဲ့ စာ တစ်ခုခုရေး ",
 
- "link":"app download link ထည့်" ,
+      "link":"app download link ထည့်" ,
 
-"playstore":"PlayStore လင့်ရှိရင်ထည့် မရှိရင်ဘာမှမထည့်နဲ့",
+      "playstore":"PlayStore လင့်ရှိရင်ထည့် မရှိရင်ဘာမှမထည့်နဲ့",
 
-}
+       }
 
 
 Version code ကို ပထမ version ဆိုလျှင်  1 ပဲ ထားပါ။
@@ -32,41 +32,49 @@ Version code ကို ပထမ version ဆိုလျှင်  1 ပဲ ထ�
 #ဒုတိယ အဆင့် 
 ************
 build.gradle (project level)မှာ
+	
 	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
+	
 build.gradle (app level)မှာ
-dependencies {
+
+          dependencies {
 	          implementation 'com.github.Thihazawzaw:Update-Dialog:1.0'
-	}
+	     }
+
 
 AndroidManifest.xml မှာအောက်ပါအတိုင်းထည့်ပေးပါ။
 
-<manifest
- .......... >
+
+      <manifest
+        .......... >
   
-  <uses-permission android:name="android.permission.INTERNET"/>
-   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>  
-   <application
-       ............
-      ..............
-        android:usesCleartextTraffic="true"
-       >
-        <activity >
-          ..................
-        </activity>
-        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-    </application></manifest>
+         <uses-permission android:name="android.permission.INTERNET"/>
+         <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>  
+             <application
+             ............
+              ..............
+              android:usesCleartextTraffic="true"
+                >
+             <activity >
+               ..................
+            </activity>
+              <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+       </application>
+       </manifest>
+    
 
 #တတိယ အဆင့်
 ***********
 ကိုယ် ခေါ်သုံးချင်တဲ့ Activityရဲ့ OnCreate Method မှာ
 အောက်ပါအတိုင်းခေါ်သုံး လို့ရပါပြီ
- String link="https://myblog.blogspot.com/feeds/posts/default?alt=json";
-        int icon=R.drawable.ic_launcher_background;
+       
+       String link="https://myblog.blogspot.com/feeds/posts/default?alt=json";
+       int icon=R.drawable.ic_launcher_background;
        /*second update ပေးလျှင် vcode ကို 2 ပြောင်းပေးပြီး blog post မှာပါ ပြောင်းပါ
       */
         int vcode=1;
@@ -84,21 +92,21 @@ Zawgyi
 blogger တြင္ 
 ေအာက္ပါ အတိုင္း post တစ္ခုတင္ေပးပါ။
 
-Blog Post title ကို  UPDATEZ လို႕ အတိအက်ေပးရပါမယ္။
+     Blog Post title ကို  UPDATEZ လို႕ အတိအက်ေပးရပါမယ္။
 
 blog post body ရဲ႕ Html ဘက္မွာ ေအာက္ပါ Json string ထည္႕ေပးရပါမယ္။
 
-{ "appname":"ကိုယ္႕ ရဲ႕app name",
+    { "appname":"ကိုယ္႕ ရဲ႕app name",
 
-"versionCode":"1",
+    "versionCode":"1",
 
- "msg":"Update version နဲ႕ ပတ္သတ္တဲ႕ စာ တစ္ခုခုေရး ",
+    "msg":"Update version နဲ႕ ပတ္သတ္တဲ႕ စာ တစ္ခုခုေရး ",
 
- "link":"app download link ထည္႕" ,
+    "link":"app download link ထည္႕" ,
 
-"playstore":"PlayStore လင္႔ရွိရင္ထည္႕ မရွိရင္ဘာမွမထည္႕နဲ႕",
+    "playstore":"PlayStore လင္႔ရွိရင္ထည္႕ မရွိရင္ဘာမွမထည္႕နဲ႕",
 
-}
+    }
 
 
 Version code ကို ပထမ version ဆိုလ်ွင္  1 ပဲ ထားပါ။
@@ -106,7 +114,8 @@ Version code ကို ပထမ version ဆိုလ်ွင္  1 ပဲ ထ�
 
 #ဒုတိယ အဆင့္ 
 ************
-build.gradle (project level)မွာ
+        
+	build.gradle (project level)မွာ
 	allprojects {
 		repositories {
 			...
@@ -114,14 +123,15 @@ build.gradle (project level)မွာ
 		}
 	}
 build.gradle (app level)မွာ
-dependencies {
+      
+      dependencies {
 	          implementation 'com.github.Thihazawzaw:Update-Dialog:1.0'
-	}
+	    }
 
 AndroidManifest.xml မွာေအာက္ပါအတိုင္းထည္႔ေပးပါ။
 
-<manifest
-...........>
+      <manifest
+      ...........>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
@@ -133,13 +143,15 @@ AndroidManifest.xml မွာေအာက္ပါအတိုင္းထည္
           ..................
         </activity>
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-    </application></manifest>
+    </application>
+    </manifest>
 
 #တတိယ အဆင့္
 ***********
 ကိုယ္ ေခါ္သံုးခ်င္တဲ႕ Activityရဲ႕ OnCreate Method မွာ
 ေအာက္ပါအတိုင္းေခါ္သံုး လို႕ရပါျပီ
- String link="https://myblog.blogspot.com/feeds/posts/default?alt=json";
+       
+       String link="https://myblog.blogspot.com/feeds/posts/default?alt=json";
         int icon=R.drawable.ic_launcher_background;
        /*second update ေပးလ်ွင္ vcode ကို 2 ေျပာင္းေပးျပီး blog post မွာပါ ေျပာင္းပါ
       */
