@@ -45,11 +45,12 @@ dependencies {
 
 AndroidManifest.xml မှာအောက်ပါအတိုင်းထည့်ပေးပါ။
 
-<manifest ...........>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-
-    <application
+<manifest
+ .......... >
+  
+  <uses-permission android:name="android.permission.INTERNET"/>
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>  
+   <application
        ............
       ..............
         android:usesCleartextTraffic="true"
@@ -58,8 +59,7 @@ AndroidManifest.xml မှာအောက်ပါအတိုင်းထည့
           ..................
         </activity>
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-    </application>
-</manifest>
+    </application></manifest>
 
 #တတိယ အဆင့်
 ***********
@@ -120,10 +120,10 @@ dependencies {
 
 AndroidManifest.xml မွာေအာက္ပါအတိုင္းထည္႔ေပးပါ။
 
-<manifest ...........>
+<manifest
+...........>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-
     <application
        ............
       ..............
@@ -133,8 +133,7 @@ AndroidManifest.xml မွာေအာက္ပါအတိုင္းထည္
           ..................
         </activity>
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-    </application>
-</manifest>
+    </application></manifest>
 
 #တတိယ အဆင့္
 ***********
