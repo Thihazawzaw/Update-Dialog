@@ -21,7 +21,7 @@ blog post body ရဲ့ Html ဘက်မှာ အောက်ပါ Json stri
 
       "link":"app download link ထည့်" ,
 
-      "playstore":"PlayStore လင့်ရှိရင်ထည့် မရှိရင်ဘာမှမထည့်နဲ့",
+      "playstore":"PlayStore လင့်ရှိရင်ထည့် မရှိရင်ဘာမှမထည့်နဲ့"
 
        }
 
@@ -104,7 +104,7 @@ blog post body ရဲ႕ Html ဘက္မွာ ေအာက္ပါ Json stri
 
     "link":"app download link ထည္႕" ,
 
-    "playstore":"PlayStore လင္႔ရွိရင္ထည္႕ မရွိရင္ဘာမွမထည္႕နဲ႕",
+    "playstore":"PlayStore လင္႔ရွိရင္ထည္႕ မရွိရင္ဘာမွမထည္႕နဲ႕"
 
     }
 
